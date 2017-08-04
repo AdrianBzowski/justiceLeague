@@ -1,0 +1,98 @@
+#popup {
+    position: fixed;
+    top: 0;
+    background-color: rgba(59, 59, 59, 0.68);
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#popup .popup-inner {
+    position: absolute;
+    background-color: #fff;
+    top: 100px;
+    width: 600px;
+    height: auto;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#popup .popup-inner .close {
+    position: absolute;
+    right: 25px;
+}
+
+#popup .popup-inner img {
+    height: 300px;
+    box-shadow: 0px 0px 5px #767676;
+}
+
+#popup .popup-inner form input[type='email'] {
+    display: block;
+    margin: 20px auto;
+    border: 1px solid #ffe36b;
+    padding: 5px;
+    width: 300px;
+    outline-color: orange;
+    transition: 0.4s;
+}
+
+#popup .popup-inner form input[type='email']:focus {
+    width: 400px;
+    outline-color: orange;
+}
+
+#popup .popup-inner form input[type='submit'],
+#pobierz-informator {
+    display: block;
+    margin: auto;
+    border: 1px solid #ffe36b;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background: #ffe36b;
+    color: #000;
+    padding: 10px 20px;
+    font-weight: 900px;
+    text-decoration: none;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+#popup .popup-inner form input[type='submit'],
+#pobierz-informator:hover {
+    background-color: #ffd831;
+}
+
+#pobierz informator {
+    color: #fff;
+    text-decoration: none;
+    display: none;
+    width: 55%;
+    
+}
+#message {
+    display:none;
+}
+
+@media (min-width: 250px) and (max-width: 991px) {
+    #popup .popup-inner {
+        width: 300px;
+    }
+    #popup .popup-inner img {
+        height: 150px;
+    }
+    #popup .popup-inner form input[type='email'] {
+        width: 150px;
+    }
+    #popup .popup-inner form input[type='email']:focus {
+        width: 200px;
+    }
+    #popup .popup-inner .close {
+        right: 15px;
+    }
+}

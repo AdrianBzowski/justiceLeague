@@ -1,0 +1,144 @@
+
+@media (min-width: 990px) and (max-width: 1199px) {
+     .images-overlay .row .image-default {
+        background-position: center;
+    }
+    
+}
+
+@media (min-width: 300px) and (max-width: 450px) {
+    .main-header {
+        height: 80vh;
+        background: url(../img/cd6724225451233b142b1beed07c16da--iphone-backgrounds-phone-wallpapers.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    #main h1 {
+        font-size: 40px;
+    }
+    .navbar .container-fluid .navbar-header .navbar-brand {
+        display:none;
+    }
+    .col h1 {
+        letter-spacing: 5px;
+    }
+    
+    
+    .sekcja-1 .row .sekcja-tekst {
+        padding:20px;
+    }
+    .container .row .villain-image img {
+    height: 300px;
+}
+    body {
+        overflow: visible;
+    }
+    .sekcja-1 .row .sekcja-obrazek {
+        background-position: center;
+        background-size: cover;
+    height: 40vh;
+    }
+    .sekcja-1 .row .sekcja-obrazek-drugi {
+        background-position: center;
+        background-size: cover;
+        height: 50vh;
+    }
+    
+    footer .footer-container .row .footer-column {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .images-overlay .row .image-default {
+        background-position: center;
+    }
+     .navbar-default .navbar-toggle {
+        position: fixed;
+        top: 3%;
+        left: 85%;
+        background-color: rgba(255, 255, 255, 0.72);  
+    }
+    .navbar-nav {
+        margin: 7.5px -15px;
+    }
+/*
+    #bs-example-navbar-collapse-1 {
+        position: fixed;
+        width: 100vw;
+        text-align: center;
+        border: none;
+    }
+*/
+    .navbar-default .navbar-nav>li>a {
+        border: none;
+    }
+    #justice .justice-info h3 {
+        padding: 0px 20px;
+    }
+}
+
+
+
+
+
+
+
+@media (min-width: 451px) and (max-width: 991px) {
+    #main h1 {
+        font-size: 40px;
+    }
+    .navbar .container-fluid .navbar-header .navbar-brand {
+        display:none;
+    }
+    
+    
+    .sekcja-1 .row .sekcja-tekst {
+        padding:20px;
+    }
+    .container .row .villain-image img {
+    height: 300px;
+}
+    body {
+        overflow: visible;
+    }
+    .sekcja-1 .row .sekcja-obrazek {
+        background-position: center;
+        background-size: cover;
+    height: 40vh;
+    }
+    .sekcja-1 .row .sekcja-obrazek-drugi {
+        background-position: center;
+        background-size: cover;
+        height: 50vh;
+    }
+    
+    footer .footer-container .row .footer-column {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .images-overlay .row .image-default {
+        background-position: center;
+    }
+     .navbar-default .navbar-toggle {
+        position: fixed;
+        top: 3%;
+        left: 85%;
+        background-color: rgba(255, 255, 255, 0.72);  
+    }
+    .navbar-nav {
+        margin: 7.5px -15px;
+    }
+/*
+    #bs-example-navbar-collapse-1 {
+        position: fixed;
+        width: 100vw;
+        text-align: center;
+        border: none;
+    }
+*/
+    .navbar-default .navbar-nav>li>a {
+        border: none;
+    }
+    #justice .justice-info h3 {
+        padding: 0px 20px;
+    }
+}

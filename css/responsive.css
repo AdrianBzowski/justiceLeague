@@ -1,9 +1,84 @@
-
-@media (min-width: 990px) and (max-width: 1199px) {
-     .images-overlay .row .image-default {
+@media (min-width: 992px) and (max-width: 1199px) {
+    .images-overlay .row .image-default {
         background-position: center;
     }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .navbar-nav {
+        margin: 7.5px -15px;
+    }
+}
+@media (min-width: 451px) and (max-width: 767px) {
+    #main h1 {
+        font-size: 40px;
+    }
+    .navbar .container-fluid .navbar-header .navbar-brand {
+        display: none;
+    }
+    .navbar-default .navbar-collapse {
+        position: fixed;
+        width: 70%;
+        background-color: rgba(70, 70, 70, 0.55);
+    }
+    .navbar-default .navbar-collapse ul li a {
+        color: #fff;
+        width: 100%;
+    }
+    .navbar-default .navbar-collapse ul li a:hover {
+        color: rgb(77, 77, 255);
+        border:none;
+        margin:0;
+        background-color: azure;
+        letter-spacing: 1px;
+        font-weight: 800;
+    }
+    .navbar-nav {
+        margin:0px -15px;
+    }
+    .navbar-default .navbar-nav>li {
+        margin:0;
+    }
     
+
+    .sekcja-1 .row .sekcja-tekst {
+        padding: 20px;
+    }
+    .container .row .villain-image img {
+        height: 300px;
+    }
+    body {
+        overflow: visible;
+    }
+    .sekcja-1 .row .sekcja-obrazek {
+        background-position: center;
+        background-size: cover;
+        height: 40vh;
+    }
+    .sekcja-1 .row .sekcja-obrazek-drugi {
+        background-position: center;
+        background-size: cover;
+        height: 40vh;
+    }
+    footer .footer-container .row .footer-column {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .images-overlay .row .image-default {
+        background-position: center;
+    }
+    .navbar-default .navbar-toggle {
+        position: fixed;
+        top: 3%;
+        left: 85%;
+        background-color: rgb(255, 255, 255);
+    }
+
+    #justice .justice-info h3 {
+        padding: 0px 20px;
+    }
 }
 
 @media (min-width: 300px) and (max-width: 450px) {
@@ -13,37 +88,61 @@
         background-position: center;
         background-size: cover;
     }
+    
+    
+    .navbar-default .navbar-collapse {
+        position: fixed;
+        width: 70%;
+        background-color: rgba(70, 70, 70, 0.55);
+    }
+    .navbar-default .navbar-collapse ul li a {
+        color: #fff;
+        width: 100%;
+    }
+    .navbar-default .navbar-collapse ul li a:hover {
+        color: rgb(77, 77, 255);
+        border:none;
+        margin:0;
+        background-color: azure;
+        letter-spacing: 1px;
+        font-weight: 800;
+    }
+    .navbar-nav {
+        margin:0px -15px;
+    }
+    .navbar-default .navbar-nav>li {
+        margin:0;
+    }
+    
+    
     #main h1 {
         font-size: 40px;
     }
     .navbar .container-fluid .navbar-header .navbar-brand {
-        display:none;
+        display: none;
     }
     .col h1 {
         letter-spacing: 5px;
     }
-    
-    
     .sekcja-1 .row .sekcja-tekst {
-        padding:20px;
+        padding: 20px;
     }
     .container .row .villain-image img {
-    height: 300px;
-}
+        height: 300px;
+    }
     body {
         overflow: visible;
     }
     .sekcja-1 .row .sekcja-obrazek {
         background-position: center;
         background-size: cover;
-    height: 40vh;
+        height: 40vh;
     }
     .sekcja-1 .row .sekcja-obrazek-drugi {
         background-position: center;
         background-size: cover;
         height: 40vh;
     }
-    
     footer .footer-container .row .footer-column {
         text-align: center;
         margin-bottom: 20px;
@@ -55,90 +154,12 @@
         position: fixed;
         top: 3%;
         left: 85%;
-        background-color: rgba(255, 255, 255, 0.72);  
+        background-color: rgb(255, 255, 255);
     }
-    .navbar-nav {
-        margin: 7.5px -15px;
-    }
-/*
-    #bs-example-navbar-collapse-1 {
-        position: fixed;
-        width: 100vw;
-        text-align: center;
-        border: none;
-    }
-*/
-    .navbar-default .navbar-nav>li>a {
-        border: none;
-    }
+
     #justice .justice-info h3 {
         padding: 0px 20px;
     }
 }
 
 
-
-
-
-
-
-@media (min-width: 451px) and (max-width: 991px) {
-    #main h1 {
-        font-size: 40px;
-    }
-    .navbar .container-fluid .navbar-header .navbar-brand {
-        display:none;
-    }
-    
-    
-    .sekcja-1 .row .sekcja-tekst {
-        padding:20px;
-    }
-    .container .row .villain-image img {
-    height: 300px;
-}
-    body {
-        overflow: visible;
-    }
-    .sekcja-1 .row .sekcja-obrazek {
-        background-position: center;
-        background-size: cover;
-    height: 40vh;
-    }
-    .sekcja-1 .row .sekcja-obrazek-drugi {
-        background-position: center;
-        background-size: cover;
-        height: 40vh;
-    }
-    
-    footer .footer-container .row .footer-column {
-        text-align: center;
-        margin-bottom: 20px;
-    }
-    .images-overlay .row .image-default {
-        background-position: center;
-    }
-     .navbar-default .navbar-toggle {
-        position: fixed;
-        top: 3%;
-        left: 85%;
-        background-color: rgba(255, 255, 255, 0.72);  
-    }
-    .navbar-nav {
-        margin: 7.5px -15px;
-    }
-/*
-    #bs-example-navbar-collapse-1 {
-        position: fixed;
-        width: 100vw;
-        text-align: center;
-        border: none;
-    }
-*/
-    .navbar-default .navbar-nav>li>a {
-        border: none;
-    }
-    #justice .justice-info h3 {
-        padding: 0px 20px;
-    }
-}

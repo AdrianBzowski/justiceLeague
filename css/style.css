@@ -23,8 +23,16 @@ body {
 }
 
 .navbar-default .navbar-collapse {
+    
     float: right;
     border: none;
+}
+.navbar-default .navbar-toggle {
+    border: 1px solid #847fff;
+    
+}
+.navbar-header .navbar-toggle .icon-bar {
+    background-color:#847fff;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -89,10 +97,7 @@ body {
 }
 
 
-.navbar-collapse .collapse .in ul>li {
-    color: #fff;
-    float: left;
-}
+
 
 #images-with-text {
     margin-bottom: 100px;
